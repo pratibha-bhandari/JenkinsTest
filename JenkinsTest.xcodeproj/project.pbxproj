@@ -12,26 +12,7 @@
 		E782A29620E646440054F3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E782A29420E646440054F3AD /* Main.storyboard */; };
 		E782A29820E646440054F3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E782A29720E646440054F3AD /* Assets.xcassets */; };
 		E782A29B20E646440054F3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E782A29920E646440054F3AD /* LaunchScreen.storyboard */; };
-		E782A2A620E646440054F3AD /* JenkinsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782A2A520E646440054F3AD /* JenkinsTestTests.swift */; };
-		E782A2B120E646440054F3AD /* JenkinsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782A2B020E646440054F3AD /* JenkinsTestUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E782A2A220E646440054F3AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E782A28520E646440054F3AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E782A28C20E646440054F3AD;
-			remoteInfo = JenkinsTest;
-		};
-		E782A2AD20E646440054F3AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E782A28520E646440054F3AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E782A28C20E646440054F3AD;
-			remoteInfo = JenkinsTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E782A28D20E646440054F3AD /* JenkinsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,14 @@
 		E782A29720E646440054F3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E782A29A20E646440054F3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E782A29C20E646440054F3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E782A2A120E646440054F3AD /* JenkinsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E782A2A520E646440054F3AD /* JenkinsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestTests.swift; sourceTree = "<group>"; };
 		E782A2A720E646440054F3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E782A2AC20E646440054F3AD /* JenkinsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E782A2B020E646440054F3AD /* JenkinsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestUITests.swift; sourceTree = "<group>"; };
 		E782A2B220E646440054F3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E782A28A20E646440054F3AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E782A29E20E646440054F3AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E782A2A920E646440054F3AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				E782A28D20E646440054F3AD /* JenkinsTest.app */,
-				E782A2A120E646440054F3AD /* JenkinsTestTests.xctest */,
-				E782A2AC20E646440054F3AD /* JenkinsTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,42 +108,6 @@
 			productReference = E782A28D20E646440054F3AD /* JenkinsTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E782A2A020E646440054F3AD /* JenkinsTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E782A2B820E646440054F3AD /* Build configuration list for PBXNativeTarget "JenkinsTestTests" */;
-			buildPhases = (
-				E782A29D20E646440054F3AD /* Sources */,
-				E782A29E20E646440054F3AD /* Frameworks */,
-				E782A29F20E646440054F3AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E782A2A320E646440054F3AD /* PBXTargetDependency */,
-			);
-			name = JenkinsTestTests;
-			productName = JenkinsTestTests;
-			productReference = E782A2A120E646440054F3AD /* JenkinsTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E782A2AB20E646440054F3AD /* JenkinsTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E782A2BB20E646440054F3AD /* Build configuration list for PBXNativeTarget "JenkinsTestUITests" */;
-			buildPhases = (
-				E782A2A820E646440054F3AD /* Sources */,
-				E782A2A920E646440054F3AD /* Frameworks */,
-				E782A2AA20E646440054F3AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E782A2AE20E646440054F3AD /* PBXTargetDependency */,
-			);
-			name = JenkinsTestUITests;
-			productName = JenkinsTestUITests;
-			productReference = E782A2AC20E646440054F3AD /* JenkinsTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,16 +121,6 @@
 					E782A28C20E646440054F3AD = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
-					};
-					E782A2A020E646440054F3AD = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E782A28C20E646440054F3AD;
-					};
-					E782A2AB20E646440054F3AD = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E782A28C20E646440054F3AD;
 					};
 				};
 			};
@@ -221,8 +138,6 @@
 			projectRoot = "";
 			targets = (
 				E782A28C20E646440054F3AD /* JenkinsTest */,
-				E782A2A020E646440054F3AD /* JenkinsTestTests */,
-				E782A2AB20E646440054F3AD /* JenkinsTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E782A29F20E646440054F3AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E782A2AA20E646440054F3AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,36 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E782A29D20E646440054F3AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E782A2A620E646440054F3AD /* JenkinsTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E782A2A820E646440054F3AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E782A2B120E646440054F3AD /* JenkinsTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E782A2A320E646440054F3AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E782A28C20E646440054F3AD /* JenkinsTest */;
-			targetProxy = E782A2A220E646440054F3AD /* PBXContainerItemProxy */;
-		};
-		E782A2AE20E646440054F3AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E782A28C20E646440054F3AD /* JenkinsTest */;
-			targetProxy = E782A2AD20E646440054F3AD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E782A29420E646440054F3AD /* Main.storyboard */ = {
@@ -458,68 +330,6 @@
 			};
 			name = Release;
 		};
-		E782A2B920E646440054F3AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsTest.app/JenkinsTest";
-			};
-			name = Debug;
-		};
-		E782A2BA20E646440054F3AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsTest.app/JenkinsTest";
-			};
-			name = Release;
-		};
-		E782A2BC20E646440054F3AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JenkinsTest;
-			};
-			name = Debug;
-		};
-		E782A2BD20E646440054F3AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JenkinsTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JenkinsTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,24 +347,6 @@
 			buildConfigurations = (
 				E782A2B620E646440054F3AD /* Debug */,
 				E782A2B720E646440054F3AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E782A2B820E646440054F3AD /* Build configuration list for PBXNativeTarget "JenkinsTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E782A2B920E646440054F3AD /* Debug */,
-				E782A2BA20E646440054F3AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E782A2BB20E646440054F3AD /* Build configuration list for PBXNativeTarget "JenkinsTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E782A2BC20E646440054F3AD /* Debug */,
-				E782A2BD20E646440054F3AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
